@@ -1,0 +1,15 @@
+{   
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    },
+    "require": {
+        "slim/slim": "4.*",
+        "league/plates": "^3.4",
+        "dblibslim/pdo": "dev-master",
+        "slim/psr7": "^1.6",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    }
+}
